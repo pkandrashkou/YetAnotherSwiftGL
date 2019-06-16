@@ -1,0 +1,1249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"SGLMath::swizgen::ProductTarget" /* swizgen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_169 /* Build configuration list for PBXAggregateTarget "swizgen" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_172 /* PBXTargetDependency */,
+			);
+			name = swizgen;
+			productName = swizgen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		86B3742122B65CCE008FC34F /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B3742022B65CCE008FC34F /* libglfw.3.3.dylib */; };
+		OBJ_100 /* Quaternion.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* Quaternion.swift */; };
+		OBJ_101 /* Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* Swizzle.swift */; };
+		OBJ_102 /* Vector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Vector2.swift */; };
+		OBJ_103 /* Vector2b.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* Vector2b.swift */; };
+		OBJ_104 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* Vector3.swift */; };
+		OBJ_105 /* Vector3b.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* Vector3b.swift */; };
+		OBJ_106 /* Vector4.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* Vector4.swift */; };
+		OBJ_107 /* Vector4b.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* Vector4b.swift */; };
+		OBJ_108 /* glm.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* glm.swift */; };
+		OBJ_109 /* glsl.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* glsl.swift */; };
+		OBJ_116 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Package.swift */; };
+		OBJ_122 /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Commands.swift */; };
+		OBJ_123 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* Constants.swift */; };
+		OBJ_124 /* Loaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Loaders.swift */; };
+		OBJ_125 /* SwiftGL.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* SwiftGL.swift */; };
+		OBJ_132 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Package.swift */; };
+		OBJ_138 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* main.swift */; };
+		OBJ_145 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* main.swift */; };
+		OBJ_152 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* main.swift */; };
+		OBJ_154 /* SGLImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SGLImage::SGLImage::Product" /* SGLImage.framework */; };
+		OBJ_155 /* SGLMath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SGLMath::SGLMath::Product" /* SGLMath.framework */; };
+		OBJ_156 /* SGLOpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SGLOpenGL::SGLOpenGL::Product" /* SGLOpenGL.framework */; };
+		OBJ_167 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_69 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Image.swift */; };
+		OBJ_70 /* ImageBMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ImageBMP.swift */; };
+		OBJ_71 /* ImageGIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ImageGIF.swift */; };
+		OBJ_72 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* ImageLoader.swift */; };
+		OBJ_73 /* ImagePNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ImagePNG.swift */; };
+		OBJ_74 /* Inflate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Inflate.swift */; };
+		OBJ_81 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Package.swift */; };
+		OBJ_87 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Complex.swift */; };
+		OBJ_88 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Internal.swift */; };
+		OBJ_89 /* Matrix2x2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Matrix2x2.swift */; };
+		OBJ_90 /* Matrix2x3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Matrix2x3.swift */; };
+		OBJ_91 /* Matrix2x4.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Matrix2x4.swift */; };
+		OBJ_92 /* Matrix3x2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Matrix3x2.swift */; };
+		OBJ_93 /* Matrix3x3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Matrix3x3.swift */; };
+		OBJ_94 /* Matrix3x4.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* Matrix3x4.swift */; };
+		OBJ_95 /* Matrix4x2.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* Matrix4x2.swift */; };
+		OBJ_96 /* Matrix4x3.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* Matrix4x3.swift */; };
+		OBJ_97 /* Matrix4x4.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* Matrix4x4.swift */; };
+		OBJ_98 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* Operators.swift */; };
+		OBJ_99 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* Protocols.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86B3741922B581BB008FC34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SGLImage::SGLImage";
+			remoteInfo = SGLImage;
+		};
+		86B3741A22B581BB008FC34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SGLMath::Tools";
+			remoteInfo = Tools;
+		};
+		86B3741B22B581BB008FC34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SGLMath::SGLMath";
+			remoteInfo = SGLMath;
+		};
+		86B3741C22B581BB008FC34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SGLOpenGL::glgen";
+			remoteInfo = glgen;
+		};
+		86B3741D22B581BB008FC34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SGLOpenGL::SGLOpenGL";
+			remoteInfo = SGLOpenGL;
+		};
+		86B3741E22B581BD008FC34F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SGLMath::Tools";
+			remoteInfo = Tools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86B3742022B65CCE008FC34F /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../usr/local/Cellar/glfw/3.3/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		OBJ_13 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		OBJ_14 /* ImageBMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBMP.swift; sourceTree = "<group>"; };
+		OBJ_15 /* ImageGIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGIF.swift; sourceTree = "<group>"; };
+		OBJ_16 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		OBJ_17 /* ImagePNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePNG.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Inflate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inflate.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/pkondrashkov/Desktop/YetAnotherSwiftGL/YetAnotherSwiftGL/.build/checkouts/Image.git--3319269169713124925/Package.swift"; sourceTree = "<group>"; };
+		OBJ_22 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Complex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Internal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internal.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Matrix2x2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix2x2.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Matrix2x3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix2x3.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Matrix2x4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix2x4.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Matrix3x2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix3x2.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Matrix3x3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix3x3.swift; sourceTree = "<group>"; };
+		OBJ_31 /* Matrix3x4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix3x4.swift; sourceTree = "<group>"; };
+		OBJ_32 /* Matrix4x2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix4x2.swift; sourceTree = "<group>"; };
+		OBJ_33 /* Matrix4x3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix4x3.swift; sourceTree = "<group>"; };
+		OBJ_34 /* Matrix4x4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix4x4.swift; sourceTree = "<group>"; };
+		OBJ_35 /* Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		OBJ_36 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		OBJ_37 /* Quaternion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quaternion.swift; sourceTree = "<group>"; };
+		OBJ_38 /* Swizzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swizzle.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Vector2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector2.swift; sourceTree = "<group>"; };
+		OBJ_40 /* Vector2b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector2b.swift; sourceTree = "<group>"; };
+		OBJ_41 /* Vector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		OBJ_42 /* Vector3b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector3b.swift; sourceTree = "<group>"; };
+		OBJ_43 /* Vector4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector4.swift; sourceTree = "<group>"; };
+		OBJ_44 /* Vector4b.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector4b.swift; sourceTree = "<group>"; };
+		OBJ_45 /* glm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glm.swift; sourceTree = "<group>"; };
+		OBJ_46 /* glsl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = glsl.swift; sourceTree = "<group>"; };
+		OBJ_47 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/pkondrashkov/Desktop/YetAnotherSwiftGL/YetAnotherSwiftGL/.build/checkouts/Math.git-3282596980477809898/Package.swift"; sourceTree = "<group>"; };
+		OBJ_50 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_52 /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
+		OBJ_53 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		OBJ_54 /* Loaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loaders.swift; sourceTree = "<group>"; };
+		OBJ_55 /* SwiftGL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGL.swift; sourceTree = "<group>"; };
+		OBJ_56 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/pkondrashkov/Desktop/YetAnotherSwiftGL/YetAnotherSwiftGL/.build/checkouts/OpenGL.git-399605029504679226/Package.swift"; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		"SGLImage::SGLImage::Product" /* SGLImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SGLImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SGLMath::SGLMath::Product" /* SGLMath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SGLMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SGLMath::Tools::Product" /* Tools */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tools; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SGLOpenGL::SGLOpenGL::Product" /* SGLOpenGL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SGLOpenGL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SGLOpenGL::glgen::Product" /* glgen */ = {isa = PBXFileReference; lastKnownFileType = text; path = glgen; sourceTree = BUILT_PRODUCTS_DIR; };
+		"main::main::Product" /* YetAnotherSwiftGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = YetAnotherSwiftGL; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				86B3742122B65CCE008FC34F /* libglfw.3.3.dylib in Frameworks */,
+				OBJ_154 /* SGLImage.framework in Frameworks */,
+				OBJ_155 /* SGLMath.framework in Frameworks */,
+				OBJ_156 /* SGLOpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B3741F22B65CCE008FC34F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86B3742022B65CCE008FC34F /* libglfw.3.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* SGLImage 2.2.0 */,
+				OBJ_20 /* SGLMath 2.2.0 */,
+				OBJ_48 /* SGLOpenGL 3.1.1 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_11 /* SGLImage 2.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* SGLImage */,
+				OBJ_19 /* Package.swift */,
+			);
+			name = "SGLImage 2.2.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* SGLImage */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* Image.swift */,
+				OBJ_14 /* ImageBMP.swift */,
+				OBJ_15 /* ImageGIF.swift */,
+				OBJ_16 /* ImageLoader.swift */,
+				OBJ_17 /* ImagePNG.swift */,
+				OBJ_18 /* Inflate.swift */,
+			);
+			name = SGLImage;
+			path = ".build/checkouts/Image.git--3319269169713124925/Sources/SGLImage";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* SGLMath 2.2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* Tools */,
+				OBJ_23 /* SGLMath */,
+				OBJ_47 /* Package.swift */,
+			);
+			name = "SGLMath 2.2.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_21 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_22 /* main.swift */,
+			);
+			name = Tools;
+			path = ".build/checkouts/Math.git-3282596980477809898/Sources/Tools";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_23 /* SGLMath */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* Complex.swift */,
+				OBJ_25 /* Internal.swift */,
+				OBJ_26 /* Matrix2x2.swift */,
+				OBJ_27 /* Matrix2x3.swift */,
+				OBJ_28 /* Matrix2x4.swift */,
+				OBJ_29 /* Matrix3x2.swift */,
+				OBJ_30 /* Matrix3x3.swift */,
+				OBJ_31 /* Matrix3x4.swift */,
+				OBJ_32 /* Matrix4x2.swift */,
+				OBJ_33 /* Matrix4x3.swift */,
+				OBJ_34 /* Matrix4x4.swift */,
+				OBJ_35 /* Operators.swift */,
+				OBJ_36 /* Protocols.swift */,
+				OBJ_37 /* Quaternion.swift */,
+				OBJ_38 /* Swizzle.swift */,
+				OBJ_39 /* Vector2.swift */,
+				OBJ_40 /* Vector2b.swift */,
+				OBJ_41 /* Vector3.swift */,
+				OBJ_42 /* Vector3b.swift */,
+				OBJ_43 /* Vector4.swift */,
+				OBJ_44 /* Vector4b.swift */,
+				OBJ_45 /* glm.swift */,
+				OBJ_46 /* glsl.swift */,
+			);
+			name = SGLMath;
+			path = ".build/checkouts/Math.git-3282596980477809898/Sources/SGLMath";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_48 /* SGLOpenGL 3.1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_49 /* glgen */,
+				OBJ_51 /* SGLOpenGL */,
+				OBJ_56 /* Package.swift */,
+			);
+			name = "SGLOpenGL 3.1.1";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_49 /* glgen */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_50 /* main.swift */,
+			);
+			name = glgen;
+			path = ".build/checkouts/OpenGL.git-399605029504679226/Sources/glgen";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				OBJ_10 /* Dependencies */,
+				OBJ_57 /* Products */,
+				86B3741F22B65CCE008FC34F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_51 /* SGLOpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_52 /* Commands.swift */,
+				OBJ_53 /* Constants.swift */,
+				OBJ_54 /* Loaders.swift */,
+				OBJ_55 /* SwiftGL.swift */,
+			);
+			name = SGLOpenGL;
+			path = ".build/checkouts/OpenGL.git-399605029504679226/Sources/SGLOpenGL";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SGLMath::Tools::Product" /* Tools */,
+				"SGLOpenGL::SGLOpenGL::Product" /* SGLOpenGL.framework */,
+				"main::main::Product" /* YetAnotherSwiftGL */,
+				"SGLImage::SGLImage::Product" /* SGLImage.framework */,
+				"SGLMath::SGLMath::Product" /* SGLMath.framework */,
+				"SGLOpenGL::glgen::Product" /* glgen */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* main.swift */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SGLImage::SGLImage" /* SGLImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_65 /* Build configuration list for PBXNativeTarget "SGLImage" */;
+			buildPhases = (
+				OBJ_68 /* Sources */,
+				OBJ_75 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGLImage;
+			productName = SGLImage;
+			productReference = "SGLImage::SGLImage::Product" /* SGLImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SGLImage::SwiftPMPackageDescription" /* SGLImagePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_77 /* Build configuration list for PBXNativeTarget "SGLImagePackageDescription" */;
+			buildPhases = (
+				OBJ_80 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGLImagePackageDescription;
+			productName = SGLImagePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SGLMath::SGLMath" /* SGLMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_83 /* Build configuration list for PBXNativeTarget "SGLMath" */;
+			buildPhases = (
+				OBJ_86 /* Sources */,
+				OBJ_110 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGLMath;
+			productName = SGLMath;
+			productReference = "SGLMath::SGLMath::Product" /* SGLMath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SGLMath::SwiftPMPackageDescription" /* SGLMathPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_112 /* Build configuration list for PBXNativeTarget "SGLMathPackageDescription" */;
+			buildPhases = (
+				OBJ_115 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGLMathPackageDescription;
+			productName = SGLMathPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SGLMath::Tools" /* Tools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_134 /* Build configuration list for PBXNativeTarget "Tools" */;
+			buildPhases = (
+				OBJ_137 /* Sources */,
+				OBJ_139 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tools;
+			productName = Tools;
+			productReference = "SGLMath::Tools::Product" /* Tools */;
+			productType = "com.apple.product-type.tool";
+		};
+		"SGLOpenGL::SGLOpenGL" /* SGLOpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_118 /* Build configuration list for PBXNativeTarget "SGLOpenGL" */;
+			buildPhases = (
+				OBJ_121 /* Sources */,
+				OBJ_126 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGLOpenGL;
+			productName = SGLOpenGL;
+			productReference = "SGLOpenGL::SGLOpenGL::Product" /* SGLOpenGL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"SGLOpenGL::SwiftPMPackageDescription" /* SGLOpenGLPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_128 /* Build configuration list for PBXNativeTarget "SGLOpenGLPackageDescription" */;
+			buildPhases = (
+				OBJ_131 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGLOpenGLPackageDescription;
+			productName = SGLOpenGLPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SGLOpenGL::glgen" /* glgen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_141 /* Build configuration list for PBXNativeTarget "glgen" */;
+			buildPhases = (
+				OBJ_144 /* Sources */,
+				OBJ_146 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = glgen;
+			productName = glgen;
+			productReference = "SGLOpenGL::glgen::Product" /* glgen */;
+			productType = "com.apple.product-type.tool";
+		};
+		"main::SwiftPMPackageDescription" /* YetAnotherSwiftGLPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_163 /* Build configuration list for PBXNativeTarget "YetAnotherSwiftGLPackageDescription" */;
+			buildPhases = (
+				OBJ_166 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YetAnotherSwiftGLPackageDescription;
+			productName = mainPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"main::main" /* YetAnotherSwiftGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_148 /* Build configuration list for PBXNativeTarget "YetAnotherSwiftGL" */;
+			buildPhases = (
+				OBJ_151 /* Sources */,
+				OBJ_153 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_157 /* PBXTargetDependency */,
+				OBJ_158 /* PBXTargetDependency */,
+				OBJ_159 /* PBXTargetDependency */,
+				OBJ_160 /* PBXTargetDependency */,
+				OBJ_161 /* PBXTargetDependency */,
+			);
+			name = YetAnotherSwiftGL;
+			productName = main;
+			productReference = "main::main::Product" /* YetAnotherSwiftGL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "YetAnotherSwiftGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"SGLImage::SGLImage" /* SGLImage */,
+				"SGLImage::SwiftPMPackageDescription" /* SGLImagePackageDescription */,
+				"SGLMath::SGLMath" /* SGLMath */,
+				"SGLMath::SwiftPMPackageDescription" /* SGLMathPackageDescription */,
+				"SGLOpenGL::SGLOpenGL" /* SGLOpenGL */,
+				"SGLOpenGL::SwiftPMPackageDescription" /* SGLOpenGLPackageDescription */,
+				"SGLMath::Tools" /* Tools */,
+				"SGLOpenGL::glgen" /* glgen */,
+				"main::main" /* YetAnotherSwiftGL */,
+				"main::SwiftPMPackageDescription" /* YetAnotherSwiftGLPackageDescription */,
+				"SGLMath::swizgen::ProductTarget" /* swizgen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_116 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_122 /* Commands.swift in Sources */,
+				OBJ_123 /* Constants.swift in Sources */,
+				OBJ_124 /* Loaders.swift in Sources */,
+				OBJ_125 /* SwiftGL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_132 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_138 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_145 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_151 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_152 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_167 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_69 /* Image.swift in Sources */,
+				OBJ_70 /* ImageBMP.swift in Sources */,
+				OBJ_71 /* ImageGIF.swift in Sources */,
+				OBJ_72 /* ImageLoader.swift in Sources */,
+				OBJ_73 /* ImagePNG.swift in Sources */,
+				OBJ_74 /* Inflate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_81 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_87 /* Complex.swift in Sources */,
+				OBJ_88 /* Internal.swift in Sources */,
+				OBJ_89 /* Matrix2x2.swift in Sources */,
+				OBJ_90 /* Matrix2x3.swift in Sources */,
+				OBJ_91 /* Matrix2x4.swift in Sources */,
+				OBJ_92 /* Matrix3x2.swift in Sources */,
+				OBJ_93 /* Matrix3x3.swift in Sources */,
+				OBJ_94 /* Matrix3x4.swift in Sources */,
+				OBJ_95 /* Matrix4x2.swift in Sources */,
+				OBJ_96 /* Matrix4x3.swift in Sources */,
+				OBJ_97 /* Matrix4x4.swift in Sources */,
+				OBJ_98 /* Operators.swift in Sources */,
+				OBJ_99 /* Protocols.swift in Sources */,
+				OBJ_100 /* Quaternion.swift in Sources */,
+				OBJ_101 /* Swizzle.swift in Sources */,
+				OBJ_102 /* Vector2.swift in Sources */,
+				OBJ_103 /* Vector2b.swift in Sources */,
+				OBJ_104 /* Vector3.swift in Sources */,
+				OBJ_105 /* Vector3b.swift in Sources */,
+				OBJ_106 /* Vector4.swift in Sources */,
+				OBJ_107 /* Vector4b.swift in Sources */,
+				OBJ_108 /* glm.swift in Sources */,
+				OBJ_109 /* glsl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SGLImage::SGLImage" /* SGLImage */;
+			targetProxy = 86B3741922B581BB008FC34F /* PBXContainerItemProxy */;
+		};
+		OBJ_158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SGLMath::Tools" /* Tools */;
+			targetProxy = 86B3741A22B581BB008FC34F /* PBXContainerItemProxy */;
+		};
+		OBJ_159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SGLMath::SGLMath" /* SGLMath */;
+			targetProxy = 86B3741B22B581BB008FC34F /* PBXContainerItemProxy */;
+		};
+		OBJ_160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SGLOpenGL::glgen" /* glgen */;
+			targetProxy = 86B3741C22B581BB008FC34F /* PBXContainerItemProxy */;
+		};
+		OBJ_161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SGLOpenGL::SGLOpenGL" /* SGLOpenGL */;
+			targetProxy = 86B3741D22B581BB008FC34F /* PBXContainerItemProxy */;
+		};
+		OBJ_172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SGLMath::Tools" /* Tools */;
+			targetProxy = 86B3741E22B581BD008FC34F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YetAnotherSwiftGL.xcodeproj/SGLOpenGL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SGLOpenGL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SGLOpenGL;
+			};
+			name = Debug;
+		};
+		OBJ_120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YetAnotherSwiftGL.xcodeproj/SGLOpenGL_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SGLOpenGL;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SGLOpenGL;
+			};
+			name = Release;
+		};
+		OBJ_129 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = main.xcodeproj/Tools_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Tools;
+			};
+			name = Debug;
+		};
+		OBJ_136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = main.xcodeproj/Tools_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = Tools;
+			};
+			name = Release;
+		};
+		OBJ_142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = main.xcodeproj/glgen_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = glgen;
+			};
+			name = Debug;
+		};
+		OBJ_143 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = main.xcodeproj/glgen_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = glgen;
+			};
+			name = Release;
+		};
+		OBJ_149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CGLFW3.git--4245788804454471884",
+				);
+				INFOPLIST_FILE = main.xcodeproj/main_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/glfw/3.3/lib;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = YetAnotherSwiftGL;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = main;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Debug;
+		};
+		OBJ_150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CGLFW3.git--4245788804454471884",
+				);
+				INFOPLIST_FILE = main.xcodeproj/main_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/glfw/3.3/lib;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_NAME = YetAnotherSwiftGL;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = main;
+				USER_HEADER_SEARCH_PATHS = /usr/local/include;
+			};
+			name = Release;
+		};
+		OBJ_164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				PRODUCT_NAME = YetAnotherSwiftGLPackageDescription;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				PRODUCT_NAME = YetAnotherSwiftGLPackageDescription;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_171 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YetAnotherSwiftGL.xcodeproj/SGLImage_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SGLImage;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SGLImage;
+			};
+			name = Debug;
+		};
+		OBJ_67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YetAnotherSwiftGL.xcodeproj/SGLImage_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SGLImage;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SGLImage;
+			};
+			name = Release;
+		};
+		OBJ_78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		OBJ_79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YetAnotherSwiftGL.xcodeproj/SGLMath_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SGLMath;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SGLMath;
+			};
+			name = Debug;
+		};
+		OBJ_85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YetAnotherSwiftGL.xcodeproj/SGLMath_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SGLMath;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SGLMath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_112 /* Build configuration list for PBXNativeTarget "SGLMathPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_113 /* Debug */,
+				OBJ_114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_118 /* Build configuration list for PBXNativeTarget "SGLOpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_119 /* Debug */,
+				OBJ_120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_128 /* Build configuration list for PBXNativeTarget "SGLOpenGLPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_129 /* Debug */,
+				OBJ_130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_134 /* Build configuration list for PBXNativeTarget "Tools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_135 /* Debug */,
+				OBJ_136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_141 /* Build configuration list for PBXNativeTarget "glgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_142 /* Debug */,
+				OBJ_143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_148 /* Build configuration list for PBXNativeTarget "YetAnotherSwiftGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_149 /* Debug */,
+				OBJ_150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_163 /* Build configuration list for PBXNativeTarget "YetAnotherSwiftGLPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_164 /* Debug */,
+				OBJ_165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_169 /* Build configuration list for PBXAggregateTarget "swizgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_170 /* Debug */,
+				OBJ_171 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "YetAnotherSwiftGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_65 /* Build configuration list for PBXNativeTarget "SGLImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_66 /* Debug */,
+				OBJ_67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_77 /* Build configuration list for PBXNativeTarget "SGLImagePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_78 /* Debug */,
+				OBJ_79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_83 /* Build configuration list for PBXNativeTarget "SGLMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_84 /* Debug */,
+				OBJ_85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
