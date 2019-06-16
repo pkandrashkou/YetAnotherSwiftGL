@@ -39,43 +39,43 @@
       };
       "OBJ_100" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_35";
+         fileRef = "OBJ_37";
       };
       "OBJ_101" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
+         fileRef = "OBJ_38";
       };
       "OBJ_102" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_37";
+         fileRef = "OBJ_39";
       };
       "OBJ_103" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_38";
+         fileRef = "OBJ_40";
       };
       "OBJ_104" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_39";
+         fileRef = "OBJ_41";
       };
       "OBJ_105" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
+         fileRef = "OBJ_42";
       };
       "OBJ_106" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_41";
+         fileRef = "OBJ_43";
       };
       "OBJ_107" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
+         fileRef = "OBJ_44";
       };
       "OBJ_108" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_43";
+         fileRef = "OBJ_45";
       };
       "OBJ_109" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_44";
+         fileRef = "OBJ_46";
       };
       "OBJ_11" = {
          isa = "PBXGroup";
@@ -87,11 +87,11 @@
       };
       "OBJ_110" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_45";
+         fileRef = "OBJ_47";
       };
       "OBJ_111" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
+         fileRef = "OBJ_48";
       };
       "OBJ_112" = {
          isa = "PBXFrameworksBuildPhase";
@@ -260,19 +260,19 @@
       };
       "OBJ_124" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_52";
+         fileRef = "OBJ_54";
       };
       "OBJ_125" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_53";
+         fileRef = "OBJ_55";
       };
       "OBJ_126" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_54";
+         fileRef = "OBJ_56";
       };
       "OBJ_127" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_55";
+         fileRef = "OBJ_57";
       };
       "OBJ_128" = {
          isa = "PBXFrameworksBuildPhase";
@@ -447,7 +447,7 @@
       };
       "OBJ_140" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_48";
+         fileRef = "OBJ_24";
       };
       "OBJ_141" = {
          isa = "PBXFrameworksBuildPhase";
@@ -543,7 +543,7 @@
       };
       "OBJ_147" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_57";
+         fileRef = "OBJ_52";
       };
       "OBJ_148" = {
          isa = "PBXFrameworksBuildPhase";
@@ -813,7 +813,7 @@
          isa = "PBXGroup";
          children = (
             "OBJ_23",
-            "OBJ_47",
+            "OBJ_25",
             "OBJ_49"
          );
          name = "SGLMath 2.2.0";
@@ -823,8 +823,20 @@
       "OBJ_23" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_24",
-            "OBJ_25",
+            "OBJ_24"
+         );
+         name = "Tools";
+         path = ".build/checkouts/Math.git-3571851782949794462/Sources/Tools";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_25" = {
+         isa = "PBXGroup";
+         children = (
             "OBJ_26",
             "OBJ_27",
             "OBJ_28",
@@ -845,40 +857,32 @@
             "OBJ_43",
             "OBJ_44",
             "OBJ_45",
-            "OBJ_46"
+            "OBJ_46",
+            "OBJ_47",
+            "OBJ_48"
          );
          name = "SGLMath";
          path = ".build/checkouts/Math.git-3571851782949794462/Sources/SGLMath";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_24" = {
+      "OBJ_26" = {
          isa = "PBXFileReference";
          path = "Complex.swift";
          sourceTree = "<group>";
       };
-      "OBJ_25" = {
+      "OBJ_27" = {
          isa = "PBXFileReference";
          path = "Internal.swift";
          sourceTree = "<group>";
       };
-      "OBJ_26" = {
+      "OBJ_28" = {
          isa = "PBXFileReference";
          path = "Matrix2x2.swift";
          sourceTree = "<group>";
       };
-      "OBJ_27" = {
-         isa = "PBXFileReference";
-         path = "Matrix2x3.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_28" = {
-         isa = "PBXFileReference";
-         path = "Matrix2x4.swift";
-         sourceTree = "<group>";
-      };
       "OBJ_29" = {
          isa = "PBXFileReference";
-         path = "Matrix3x2.swift";
+         path = "Matrix2x3.swift";
          sourceTree = "<group>";
       };
       "OBJ_3" = {
@@ -922,52 +926,52 @@
       };
       "OBJ_30" = {
          isa = "PBXFileReference";
-         path = "Matrix3x3.swift";
+         path = "Matrix2x4.swift";
          sourceTree = "<group>";
       };
       "OBJ_31" = {
          isa = "PBXFileReference";
-         path = "Matrix3x4.swift";
+         path = "Matrix3x2.swift";
          sourceTree = "<group>";
       };
       "OBJ_32" = {
          isa = "PBXFileReference";
-         path = "Matrix4x2.swift";
+         path = "Matrix3x3.swift";
          sourceTree = "<group>";
       };
       "OBJ_33" = {
          isa = "PBXFileReference";
-         path = "Matrix4x3.swift";
+         path = "Matrix3x4.swift";
          sourceTree = "<group>";
       };
       "OBJ_34" = {
          isa = "PBXFileReference";
-         path = "Matrix4x4.swift";
+         path = "Matrix4x2.swift";
          sourceTree = "<group>";
       };
       "OBJ_35" = {
          isa = "PBXFileReference";
-         path = "Operators.swift";
+         path = "Matrix4x3.swift";
          sourceTree = "<group>";
       };
       "OBJ_36" = {
          isa = "PBXFileReference";
-         path = "Protocols.swift";
+         path = "Matrix4x4.swift";
          sourceTree = "<group>";
       };
       "OBJ_37" = {
          isa = "PBXFileReference";
-         path = "Quaternion.swift";
+         path = "Operators.swift";
          sourceTree = "<group>";
       };
       "OBJ_38" = {
          isa = "PBXFileReference";
-         path = "Swizzle.swift";
+         path = "Protocols.swift";
          sourceTree = "<group>";
       };
       "OBJ_39" = {
          isa = "PBXFileReference";
-         path = "Vector2.swift";
+         path = "Quaternion.swift";
          sourceTree = "<group>";
       };
       "OBJ_4" = {
@@ -1004,51 +1008,47 @@
       };
       "OBJ_40" = {
          isa = "PBXFileReference";
-         path = "Vector2b.swift";
+         path = "Swizzle.swift";
          sourceTree = "<group>";
       };
       "OBJ_41" = {
          isa = "PBXFileReference";
-         path = "Vector3.swift";
+         path = "Vector2.swift";
          sourceTree = "<group>";
       };
       "OBJ_42" = {
          isa = "PBXFileReference";
-         path = "Vector3b.swift";
+         path = "Vector2b.swift";
          sourceTree = "<group>";
       };
       "OBJ_43" = {
          isa = "PBXFileReference";
-         path = "Vector4.swift";
+         path = "Vector3.swift";
          sourceTree = "<group>";
       };
       "OBJ_44" = {
          isa = "PBXFileReference";
-         path = "Vector4b.swift";
+         path = "Vector3b.swift";
          sourceTree = "<group>";
       };
       "OBJ_45" = {
          isa = "PBXFileReference";
-         path = "glm.swift";
+         path = "Vector4.swift";
          sourceTree = "<group>";
       };
       "OBJ_46" = {
          isa = "PBXFileReference";
-         path = "glsl.swift";
+         path = "Vector4b.swift";
          sourceTree = "<group>";
       };
       "OBJ_47" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_48"
-         );
-         name = "Tools";
-         path = ".build/checkouts/Math.git-3571851782949794462/Sources/Tools";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "glm.swift";
+         sourceTree = "<group>";
       };
       "OBJ_48" = {
          isa = "PBXFileReference";
-         path = "main.swift";
+         path = "glsl.swift";
          sourceTree = "<group>";
       };
       "OBJ_49" = {
@@ -1075,7 +1075,7 @@
          isa = "PBXGroup";
          children = (
             "OBJ_51",
-            "OBJ_56",
+            "OBJ_53",
             "OBJ_58"
          );
          name = "SGLOpenGL 3.1.1";
@@ -1085,47 +1085,47 @@
       "OBJ_51" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_52",
-            "OBJ_53",
-            "OBJ_54",
-            "OBJ_55"
-         );
-         name = "SGLOpenGL";
-         path = ".build/checkouts/OpenGL.git--9048097052863602713/Sources/SGLOpenGL";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_52" = {
-         isa = "PBXFileReference";
-         path = "Commands.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_53" = {
-         isa = "PBXFileReference";
-         path = "Constants.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_54" = {
-         isa = "PBXFileReference";
-         path = "Loaders.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_55" = {
-         isa = "PBXFileReference";
-         path = "SwiftGL.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_56" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_57"
+            "OBJ_52"
          );
          name = "glgen";
          path = ".build/checkouts/OpenGL.git--9048097052863602713/Sources/glgen";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_57" = {
+      "OBJ_52" = {
          isa = "PBXFileReference";
          path = "main.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_53" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_54",
+            "OBJ_55",
+            "OBJ_56",
+            "OBJ_57"
+         );
+         name = "SGLOpenGL";
+         path = ".build/checkouts/OpenGL.git--9048097052863602713/Sources/SGLOpenGL";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_54" = {
+         isa = "PBXFileReference";
+         path = "Commands.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_55" = {
+         isa = "PBXFileReference";
+         path = "Constants.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_56" = {
+         isa = "PBXFileReference";
+         path = "Loaders.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_57" = {
+         isa = "PBXFileReference";
+         path = "SwiftGL.swift";
          sourceTree = "<group>";
       };
       "OBJ_58" = {
@@ -1138,12 +1138,12 @@
       "OBJ_59" = {
          isa = "PBXGroup";
          children = (
-            "SGLOpenGL::glgen::Product",
-            "SGLImage::SGLImage::Product",
+            "SGLMath::Tools::Product",
             "main::main::Product",
             "SGLOpenGL::SGLOpenGL::Product",
-            "SGLMath::Tools::Product",
-            "SGLMath::SGLMath::Product"
+            "SGLMath::SGLMath::Product",
+            "SGLOpenGL::glgen::Product",
+            "SGLImage::SGLImage::Product"
          );
          name = "Products";
          path = "";
@@ -1464,7 +1464,7 @@
       };
       "OBJ_89" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_24";
+         fileRef = "OBJ_26";
       };
       "OBJ_9" = {
          isa = "PBXGroup";
@@ -1477,43 +1477,43 @@
       };
       "OBJ_90" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_25";
+         fileRef = "OBJ_27";
       };
       "OBJ_91" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_26";
+         fileRef = "OBJ_28";
       };
       "OBJ_92" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
+         fileRef = "OBJ_29";
       };
       "OBJ_93" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_28";
+         fileRef = "OBJ_30";
       };
       "OBJ_94" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_29";
+         fileRef = "OBJ_31";
       };
       "OBJ_95" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_30";
+         fileRef = "OBJ_32";
       };
       "OBJ_96" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_31";
+         fileRef = "OBJ_33";
       };
       "OBJ_97" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
+         fileRef = "OBJ_34";
       };
       "OBJ_98" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_33";
+         fileRef = "OBJ_35";
       };
       "OBJ_99" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
+         fileRef = "OBJ_36";
       };
       "SGLImage::SGLImage" = {
          isa = "PBXNativeTarget";

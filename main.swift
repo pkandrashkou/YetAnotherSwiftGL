@@ -31,6 +31,8 @@ func main() {
         return
     }
 
+    glfwSetKeyCallback(window, keyCallback)
+
     while glfwWindowShouldClose(window) == GL_FALSE {
         glfwPollEvents()
 
@@ -40,6 +42,12 @@ func main() {
         glfwSwapBuffers(window)
     }
 
+}
+
+func keyCallback(window: OpaquePointer?, key: Int32, scancode: Int32, action: Int32, mode: Int32) {
+    if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS) {
+        glfwSetWindowShouldClose(window, GL_TRUE)
+    }
 }
 
 main()
