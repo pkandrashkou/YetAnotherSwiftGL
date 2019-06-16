@@ -1,0 +1,2 @@
+LIBRARY_SEARCH_PATHS = $(inherited) /usr/local/Cellar/glfw/3.3/lib
+HEADER_SEARCH_PATHS = $(inherited) /usr/local/Cellar/glfw/3.3/include
