@@ -14,11 +14,15 @@ struct Configuration {
     static let height: GLsizei = 600
 }
 
-
 let vertices:[GLfloat] = [
-    -0.5, -0.5, 0.0,
-    0.5, -0.5, 0.0,
-    0.0,  0.5, 0.0
+    0.5,  0.5, 0.0,  // Top Right
+    0.5, -0.5, 0.0,  // Bottom Right
+    -0.5, -0.5, 0.0,  // Bottom Left
+    -0.5,  0.5, 0.0   // Top Left
+]
+let indices:[GLuint] = [  // Note that we start from 0!
+    0, 1, 3,  // First Triangle
+    1, 2, 3   // Second Triangle
 ]
 
 let vertexShaderSource =
@@ -66,11 +70,21 @@ func main() {
     glfwSetKeyCallback(window, keyCallback)
     glViewport(x: 0, y: 0, width: Configuration.width, height: Configuration.height)
 
+    /// Enable to draw lines
+    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE)
 
     var VAO: GLuint = 0
     glGenVertexArrays(1, &VAO)
     defer { glDeleteVertexArrays(1, &VAO)}
     glBindVertexArray(VAO)
+
+    var EBO: GLuint = 0
+    glGenBuffers(n: 1, buffers: &EBO)
+    defer { glDeleteBuffers(1, &EBO) }
+    glBindBuffer(target: GL_ELEMENT_ARRAY_BUFFER, buffer: EBO)
+    glBufferData(target: GL_ELEMENT_ARRAY_BUFFER,
+                 size: MemoryLayout<GLuint>.stride * indices.count,
+                 data: indices, usage: GL_STATIC_DRAW)
 
     var VBO: GLuint = 0
     glGenBuffers(n: 1, buffers: &VBO)
@@ -121,7 +135,8 @@ func main() {
 
         glUseProgram(shaderProgram)
         glBindVertexArray(VAO)
-        glDrawArrays(GL_TRIANGLES, 0, 3)
+//        glDrawArrays(GL_TRIANGLES, 0, 3)
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, nil)
         glBindVertexArray(0)
 
 
